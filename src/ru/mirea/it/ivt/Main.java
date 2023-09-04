@@ -13,9 +13,6 @@ public class Main {
                 new User("Just", "FindIt"), new User()};
         var i = 0;
         while( i < Users.length){
-            /*System.out.println("User " + (i+1) + " Name: " + Users[i].getUsername()
-                    + "; Password: " + Users[i].getPassword());
-            */
             System.out.println(Users[i]);
             i++;
         }
