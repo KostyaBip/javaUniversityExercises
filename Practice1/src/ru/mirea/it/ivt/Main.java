@@ -1,5 +1,7 @@
 package ru.mirea.it.ivt;
+
 import java.util.Scanner;
+
 public class Main {
     public static void Exercise_1_3(){
         int[] array = {1,2,3,4,5,6,7,8,9,10};
@@ -33,9 +35,6 @@ public class Main {
                 "\nMax value of element of array is " + max +
                 "\nMin value of element of array is " + min);
     }
-    public static void Exercise_1_5(){
-        //
-    }
     public static void Exercise_1_6(){
         for(int i = 0; i < 10; i++) {
             System.out.print(1.0/(i+1) == 1/(i+1) ? 1/(i+1) + ", ": String.format("%.4f, ", 1.0/(i+1)));
@@ -49,14 +48,16 @@ public class Main {
         }
         return factorial;
     }
-    public static void Exercise_1_8(){
+    public static void Exercise_2_1(){
 
     }
     public static void main(String[] args) {
+        Exercise_1_3();
+
         // Exercise_1_7
         /*System.out.print(Exercise_1_7(5));*/
 
-        // Exercise_1_5
+        //Exercise_1_5
         /*for(String s : args){
             System.out.println(s);
         }*/
